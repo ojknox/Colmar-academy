@@ -172,3 +172,44 @@ EVENTS
 #last{
     background-color: lightgray;
 }
+
+
+/*
+LEARNING
+*/
+
+.learning {
+    padding: 2rem 2.5rem;
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+}
+
+.learning h2 {
+    text-align: center;
+}
+
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course {
+    margin: 2rem;
+    background-color: white;
+    text-align: left;
+    max-width: 25%;
+}
+
+.course h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.course p {
+    margin: 0.5rem 0;
+}
+
+.course-text {
+    padding: 1rem 1rem 1.5rem 1rem;
+}
