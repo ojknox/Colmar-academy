@@ -7,6 +7,21 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1 {
+    font-size: 2.5rem;
+    opacity: 70%;
+}
+
+h3 {
+    opacity: 70%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/*
+HEADER
+*/
+
 header {
     height: 64px; 
     padding: 0 24px;
@@ -38,4 +53,42 @@ header {
 
 .right p {
     padding-right: 16px;
+    margin: 0;
+}
+
+
+/*
+BANNER
+*/
+
+.banner {
+    background-color: lightgray;
+    padding: 2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 60%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.text {
+    padding-left: 1.5rem;
+    max-width: 400px;
+}
+
+.button {
+    background-color: hsl(0, 0%, 35%);
+    color: white;
+    text-align: center;
+}
+
+.button p{
+    padding: 8px 0;
+    font-size: 1.15rem;
 }
