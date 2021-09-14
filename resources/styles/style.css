@@ -1,0 +1,41 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    height: 64px; 
+    padding: 0 24px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    height: 32px;
+    display: inline-flex;
+    font-size: 1.5rem;
+}
+
+.left span {
+    font-weight: bold;
+}
+
+.left p {
+    margin: 0;
+    padding-left: 10px;
+    opacity: 70%;
+}
+
+.right {
+    display: inline-flex;
+}
+
+.right p {
+    padding-right: 16px;
+}
