@@ -9,13 +9,39 @@ body {
 
 h1 {
     font-size: 2.5rem;
-    opacity: 70%;
+    opacity: 60%;
+}
+
+h2 {
+    font-size: 2rem;
+    opacity: 60%;
 }
 
 h3 {
-    opacity: 70%;
+    opacity: 60%;
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+h4 {
+    opacity: 60%;
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    opacity: 60%;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: hsl(210, 100%, 70%);
+    text-decoration: none;
 }
 
 /*
@@ -31,8 +57,12 @@ header {
     justify-content: space-between;
 }
 
+header img {
+    width: auto;
+}
+
 .left {
-    height: 32px;
+    height: 2rem;
     display: inline-flex;
     font-size: 1.5rem;
 }
@@ -44,16 +74,15 @@ header {
 .left p {
     margin: 0;
     padding-left: 10px;
-    opacity: 70%;
+    font-family: "Roboto", sans-serif;
 }
 
 .right {
     display: inline-flex;
 }
 
-.right p {
-    padding-right: 16px;
-    margin: 0;
+.right h4 {
+    padding-right: 1rem;
 }
 
 
@@ -73,10 +102,6 @@ BANNER
     width: 60%;
 }
 
-.banner img {
-    width: 100%;
-}
-
 .text {
     padding-left: 1.5rem;
     max-width: 400px;
@@ -91,6 +116,7 @@ BANNER
 .button p{
     padding: 8px 0;
     font-size: 1.15rem;
+    opacity: 100%;
 }
 
 
@@ -115,11 +141,11 @@ EVENTS
 .main-event {
     padding: 2rem 1.5rem;
     width: 60%;
-    border: 1px solid lightgray;
+    border: 1px solid hsl(0, 0%, 95%);
 }
 
-.main-event img {
-    width: 100%;
+.main-event h2 {
+    padding: 2rem 0 1.5rem 0;
 }
 
 .side-panel {
@@ -130,7 +156,9 @@ EVENTS
 
 .small-event {
     padding: 1rem;
-    border: 1px solid lightgray;
+    border: 1px solid hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
 }
 
 .small-event img {
@@ -138,5 +166,9 @@ EVENTS
 }
 
 .panel-text {
-    display: inline-block;
+    padding-left: 20px;
+}
+
+#last{
+    background-color: lightgray;
 }
