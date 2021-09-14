@@ -92,3 +92,51 @@ BANNER
     padding: 8px 0;
     font-size: 1.15rem;
 }
+
+
+/*
+EVENTS
+*/
+
+.events {
+    display: flex;
+}
+
+.events h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.events p {
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.main-event {
+    padding: 2rem 1.5rem;
+    width: 60%;
+    border: 1px solid lightgray;
+}
+
+.main-event img {
+    width: 100%;
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.small-event {
+    padding: 1rem;
+    border: 1px solid lightgray;
+}
+
+.small-event img {
+    width: 35%;
+}
+
+.panel-text {
+    display: inline-block;
+}
