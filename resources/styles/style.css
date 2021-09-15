@@ -85,6 +85,38 @@ header img {
     padding-right: 1rem;
 }
 
+header .mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+    header .desktop {
+        display: none;
+    }
+
+    header .mobile {
+        display: block;
+        width: 100%;
+        height: 64px;
+    }
+
+    header .mobile ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+        position: relative;
+        top: 25%
+    }
+
+    header .mobile img {
+        width: 36px;
+    }
+}
+
 
 /*
 BANNER
