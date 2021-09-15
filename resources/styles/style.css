@@ -151,6 +151,26 @@ BANNER
     opacity: 100%;
 }
 
+@media only screen and (max-width: 500px) {
+    
+    .banner {
+        padding: 0;
+    }
+    
+    .container {
+        width: 100%;
+    }
+
+    .text {
+        padding: 2rem 1rem;
+        max-width: none;
+    }
+
+    .banner h3 {
+        margin: 2rem 0 1.5rem 0;
+    }
+}
+
 
 /*
 EVENTS
@@ -203,6 +223,39 @@ EVENTS
 
 #last{
     background-color: lightgray;
+}
+
+@media only screen and (max-width: 500px) {
+    .events .main-event {
+        display: none;
+    }
+
+    .events .side-panel {
+        width: 100%;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+
+    .events .small-event {
+        border: none;
+        display: block;
+        padding: 0 0 4rem 0; 
+    }
+
+    .events .panel-text {
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+    }
+
+    .events img {
+        width: 100%;
+        height: 200px; 
+        object-fit: cover;
+    }
+
+    #last {
+        background-color: white;
+        padding-bottom: 0;
+    }
 }
 
 
