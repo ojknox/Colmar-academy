@@ -384,7 +384,11 @@ video {
         padding: 0;
     }
 
-    .exhibits h3, p {
+    .exhibits h3 {
+        display: none;
+    }
+
+    .exhibits p {
         display: none;
     }
 }
