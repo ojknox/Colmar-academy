@@ -299,6 +299,42 @@ LEARNING
     padding: 1rem 1rem 1.5rem 1rem;
 }
 
+.learning .mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .learning {
+        padding: 2rem 1rem;
+    }
+
+    .learning h2 {
+        margin: 0;
+        padding-bottom: 1rem;
+    }
+
+    .course-grid {
+        display: none; 
+    }
+
+    .learning .mobile {
+        display: block;
+    }
+
+    .learning .mobcourse {
+        background-color: lightgray;
+        text-align: left;
+        margin: 8px 0;
+    }
+
+    .mobcourse h3 {
+        padding: 1rem;
+        font-weight: bold;
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
 /*
 THESIS EXHIBIT
 */
@@ -330,6 +366,28 @@ video {
     display: flex;
 }
 
+@media only screen and (max-width: 500px) {
+    .thesis h2 {
+        padding: 2rem 0 1rem 0;
+    }
+
+    .thesis {
+        padding-bottom: 1.5rem;
+    }
+
+    .exhibits .side-panel {
+        display: none;
+    }
+
+    .exhibits .main-event {
+        width: 100%;
+        padding: 0;
+    }
+
+    .exhibits h3, p {
+        display: none;
+    }
+}
 
 /*
 FOOTER
@@ -350,4 +408,15 @@ footer p {
     display: inline-block;
     padding-left: 1rem;
     font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 500px) {
+    footer .foot-right {
+        display: none;
+    }
+
+    footer {
+        border: none;
+        padding: 1rem 0;
+    }
 }
